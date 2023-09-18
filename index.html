@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis tareas</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="https://guiadeldocente.mx/wp-content/uploads/2017/08/writing.png">
+</head>
+<body>
+    <header class="encabezado">
+        <h1 class="titulo">Mis Tareas</h1>
+        <p class="subtitulo">¡Haciendo la vida más fácil, una tarea a la vez!</p>
+    </header>
+    <div class="containert">
+        <h3>Todos mis pendientes</h3>
+        <div class="input-container">
+            <input class="tareaTxt" type="text" id="nuevaTarea" placeholder="Agregar tarea">
+            <button onclick="agregarTarea()">Agregar</button>
+        </div>
+        <ul id="tareas">
+            <!-- Aquí se deberan momstrar las tareas -->
+        </ul>
+        <div class="btnEliminarCompletadas">
+            <button onclick="eliminarTareasCompletadas()">Eliminar Tareas Completadas</button>
+        </div>
+        <div class="contadores">
+        <p>Tareas completadas: <span id="contadorTarea">0</span></p>
+        <p>Tareas pendientes: <span id="contadorTarearestantes">0</span></p>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>

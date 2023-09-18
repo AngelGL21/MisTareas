@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222831;
+    justify-content: center;
+    margin: 0;
+}
+
+.encabezado {
+    background: linear-gradient( #00ADB5, #AAE3E2);
+    padding: 20px;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 36px;
+    color: #EEEEEE;
+    font-family: 'Arial', sans-serif;
+}
+
+.subtitulo {
+    font-size: 18px;
+    color: #EEEEEE;
+    font-style: italic;
+}
+
+
+.containert {
+    background-color: #454e59;
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+    text-align: center;
+    color: #EEEEEE;
+}
+
+.input-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.tareaTxt {
+    display: flex;
+    width: 500px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+}
+
+button {
+    
+    background-color: #00ADB5;
+    color: #fff;
+    border: none;
+    position: relative;
+    top: 9px;
+    height: 40px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #03f2ff; 
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.tachar {
+    margin-right: 100px;
+    width: 30px;
+    height: 30px; 
+}
+
+.labelt {
+    width: 400px;
+    font-size: 20px; 
+    color: #fff;
+}
+
+.btneli {
+    background-color: #00ADB5;  
+    color: #fff;
+    border: none;
+    padding: 5px 10px; 
+    cursor: pointer;
+}
+
+
+.btneli:hover {
+    background-color: #03f2ff; 
+}
+
+.btnEliminarConpletadas {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+p {
+    text-align: center;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.contadores{
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.contadores p{
+    background-color: #61DAFB;
+    color: #007997;
+    padding: 10px;
+    border-radius: 20px;
+}
